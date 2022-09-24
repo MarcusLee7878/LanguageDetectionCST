@@ -27,7 +27,7 @@ def popupmsg(msg):
     popup.mainloop()
 
 
-lang = open('C:/Users/24marcusl/Desktop/Honors AI/12-detect-language-lab/table.csv', 'r')
+lang = open('table.csv', 'r')
 content = lang.read()
 
 l = content.split(",")
